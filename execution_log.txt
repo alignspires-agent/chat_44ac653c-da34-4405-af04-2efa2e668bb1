@@ -1,0 +1,752 @@
+Lambda Execution Result (Latest Run):
+INIT_REPORT Init Duration: 9997.39 ms	Phase: init	Status: timeout
+
+=== Experiment Errors ===
+
+2025-09-22 07:39:39,680 - INFO - LP Robust Conformal Prediction for Time Series with Distribution Shifts
+
+2025-09-22 07:39:39,680 - INFO - Based on: Conformal Prediction under Lévy–Prokhorov Distribution Shifts
+
+2025-09-22 07:39:39,680 - INFO - Starting LP Robust Conformal Prediction Experiment
+
+2025-09-22 07:39:39,680 - INFO - ============================================================
+
+2025-09-22 07:39:39,680 - INFO - Generating synthetic time series data with 1000 samples...
+
+2025-09-22 07:39:39,680 - INFO - Data generation complete:
+
+2025-09-22 07:39:39,680 - INFO -   - Calibration: mean=-0.0285, std=0.9975
+
+2025-09-22 07:39:39,680 - INFO -   - Test: mean=1.6194, std=1.3501
+
+2025-09-22 07:39:39,681 - INFO -   - Distribution shift strength: 0.8
+
+2025-09-22 07:39:39,681 - INFO - 
+
+Testing ε=0.0, ρ=0.0
+
+2025-09-22 07:39:39,681 - INFO - ------------------------------
+
+2025-09-22 07:39:39,681 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.0
+
+2025-09-22 07:39:39,681 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:39,682 - INFO - Fitted model: quantile=1.1955, adjusted_beta=0.9000
+
+2025-09-22 07:39:39,682 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975
+
+2025-09-22 07:39:39,682 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:39,682 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:39,682 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:39,682 - INFO -   - Actual coverage: 39.8%
+
+2025-09-22 07:39:39,682 - INFO -   - Quantile threshold: 1.1955
+
+2025-09-22 07:39:39,682 - INFO -   - Test scores range: [-2.2268, 5.7660]
+
+2025-09-22 07:39:39,682 - INFO -   Coverage: 0.398 (expected: 0.900)
+
+2025-09-22 07:39:39,682 - INFO -   Worst-case coverage: 0.900
+
+2025-09-22 07:39:39,682 - INFO -   Avg interval width: 1.1955
+
+2025-09-22 07:39:39,682 - INFO - 
+
+Testing ε=0.0, ρ=0.05
+
+2025-09-22 07:39:39,682 - INFO - ------------------------------
+
+2025-09-22 07:39:39,682 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.05
+
+2025-09-22 07:39:39,682 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:39,682 - INFO - Fitted model: quantile=1.6126, adjusted_beta=0.9500
+
+2025-09-22 07:39:39,682 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975
+
+2025-09-22 07:39:39,683 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:39,683 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:39,683 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:39,683 - INFO -   - Actual coverage: 49.2%
+
+2025-09-22 07:39:39,683 - INFO -   - Quantile threshold: 1.6126
+
+2025-09-22 07:39:39,683 - INFO -   - Test scores range: [-2.2268, 5.7660]
+
+2025-09-22 07:39:39,683 - INFO -   Coverage: 0.492 (expected: 0.900)
+
+2025-09-22 07:39:39,683 - INFO -   Worst-case coverage: 0.900
+
+2025-09-22 07:39:39,683 - INFO -   Avg interval width: 1.6126
+
+2025-09-22 07:39:39,683 - INFO - 
+
+Testing ε=0.0, ρ=0.1
+
+2025-09-22 07:39:39,683 - INFO - ------------------------------
+
+2025-09-22 07:39:39,683 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.1
+
+2025-09-22 07:39:39,683 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:39,683 - WARNING - Adjusted beta 1.0 >= 1.0, using 0.999
+
+2025-09-22 07:39:39,683 - INFO - Fitted model: quantile=2.6202, adjusted_beta=0.9990
+
+2025-09-22 07:39:39,683 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975
+
+2025-09-22 07:39:39,683 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:39,683 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:39,683 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:39,683 - INFO -   - Actual coverage: 74.4%
+
+2025-09-22 07:39:39,683 - INFO -   - Quantile threshold: 2.6202
+
+2025-09-22 07:39:39,683 - INFO -   - Test scores range: [-2.2268, 5.7660]
+
+2025-09-22 07:39:39,683 - INFO -   Coverage: 0.744 (expected: 0.900)
+
+2025-09-22 07:39:39,683 - INFO -   Worst-case coverage: 0.898
+
+2025-09-22 07:39:39,683 - INFO -   Avg interval width: 2.6202
+
+2025-09-22 07:39:39,684 - INFO - 
+
+Testing ε=0.1, ρ=0.0
+
+2025-09-22 07:39:39,684 - INFO - ------------------------------
+
+2025-09-22 07:39:39,684 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.0
+
+2025-09-22 07:39:39,684 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:39,684 - INFO - Fitted model: quantile=1.2955, adjusted_beta=0.9000
+
+2025-09-22 07:39:39,684 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975
+
+2025-09-22 07:39:39,684 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:39,684 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:39,684 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:39,684 - INFO -   - Actual coverage: 41.8%
+
+2025-09-22 07:39:39,684 - INFO -   - Quantile threshold: 1.2955
+
+2025-09-22 07:39:39,684 - INFO -   - Test scores range: [-2.2268, 5.7660]
+
+2025-09-22 07:39:39,684 - INFO -   Coverage: 0.418 (expected: 0.900)
+
+2025-09-22 07:39:39,684 - INFO -   Worst-case coverage: 0.900
+
+2025-09-22 07:39:39,684 - INFO -   Avg interval width: 1.2955
+
+2025-09-22 07:39:39,684 - INFO - 
+
+Testing ε=0.1, ρ=0.05
+
+2025-09-22 07:39:39,684 - INFO - ------------------------------
+
+2025-09-22 07:39:39,684 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-09-22 07:39:39,684 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:39,684 - INFO - Fitted model: quantile=1.7126, adjusted_beta=0.9500
+
+2025-09-22 07:39:39,684 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975
+
+2025-09-22 07:39:39,684 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:39,685 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:39,685 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:39,685 - INFO -   - Actual coverage: 52.2%
+
+2025-09-22 07:39:39,685 - INFO -   - Quantile threshold: 1.7126
+
+2025-09-22 07:39:39,685 - INFO -   - Test scores range: [-2.2268, 5.7660]
+
+2025-09-22 07:39:39,685 - INFO -   Coverage: 0.522 (expected: 0.900)
+
+2025-09-22 07:39:39,685 - INFO -   Worst-case coverage: 0.900
+
+2025-09-22 07:39:39,685 - INFO -   Avg interval width: 1.7126
+
+2025-09-22 07:39:39,685 - INFO - 
+
+Testing ε=0.1, ρ=0.1
+
+2025-09-22 07:39:39,685 - INFO - ------------------------------
+
+2025-09-22 07:39:39,685 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.1
+
+2025-09-22 07:39:39,685 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:39,685 - WARNING - Adjusted beta 1.0 >= 1.0, using 0.999
+
+2025-09-22 07:39:39,685 - INFO - Fitted model: quantile=2.7202, adjusted_beta=0.9990
+
+2025-09-22 07:39:39,685 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975
+
+2025-09-22 07:39:39,685 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:39,685 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:39,685 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:39,685 - INFO -   - Actual coverage: 76.6%
+
+2025-09-22 07:39:39,685 - INFO -   - Quantile threshold: 2.7202
+
+2025-09-22 07:39:39,685 - INFO -   - Test scores range: [-2.2268, 5.7660]
+
+2025-09-22 07:39:39,685 - INFO -   Coverage: 0.766 (expected: 0.900)
+
+2025-09-22 07:39:39,685 - INFO -   Worst-case coverage: 0.898
+
+2025-09-22 07:39:39,685 - INFO -   Avg interval width: 2.7202
+
+2025-09-22 07:39:39,685 - INFO - 
+
+Testing ε=0.2, ρ=0.0
+
+2025-09-22 07:39:39,685 - INFO - ------------------------------
+
+2025-09-22 07:39:39,686 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.0
+
+2025-09-22 07:39:39,686 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:39,686 - INFO - Fitted model: quantile=1.3955, adjusted_beta=0.9000
+
+2025-09-22 07:39:39,686 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975
+
+2025-09-22 07:39:39,686 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:39,686 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:39,686 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:39,686 - INFO -   - Actual coverage: 44.4%
+
+2025-09-22 07:39:39,686 - INFO -   - Quantile threshold: 1.3955
+
+2025-09-22 07:39:39,686 - INFO -   - Test scores range: [-2.2268, 5.7660]
+
+2025-09-22 07:39:39,686 - INFO -   Coverage: 0.444 (expected: 0.900)
+
+2025-09-22 07:39:39,686 - INFO -   Worst-case coverage: 0.900
+
+2025-09-22 07:39:39,686 - INFO -   Avg interval width: 1.3955
+
+2025-09-22 07:39:39,686 - INFO - 
+
+Testing ε=0.2, ρ=0.05
+
+2025-09-22 07:39:39,686 - INFO - ------------------------------
+
+2025-09-22 07:39:39,686 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.05
+
+2025-09-22 07:39:39,686 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:39,686 - INFO - Fitted model: quantile=1.8126, adjusted_beta=0.9500
+
+2025-09-22 07:39:39,686 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975
+
+2025-09-22 07:39:39,686 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:39,687 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:39,687 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:39,687 - INFO -   - Actual coverage: 54.4%
+
+2025-09-22 07:39:39,687 - INFO -   - Quantile threshold: 1.8126
+
+2025-09-22 07:39:39,687 - INFO -   - Test scores range: [-2.2268, 5.7660]
+
+2025-09-22 07:39:39,687 - INFO -   Coverage: 0.544 (expected: 0.900)
+
+2025-09-22 07:39:39,687 - INFO -   Worst-case coverage: 0.900
+
+2025-09-22 07:39:39,687 - INFO -   Avg interval width: 1.8126
+
+2025-09-22 07:39:39,687 - INFO - 
+
+Testing ε=0.2, ρ=0.1
+
+2025-09-22 07:39:39,687 - INFO - ------------------------------
+
+2025-09-22 07:39:39,687 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.1
+
+2025-09-22 07:39:39,687 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:39,687 - WARNING - Adjusted beta 1.0 >= 1.0, using 0.999
+
+2025-09-22 07:39:39,687 - INFO - Fitted model: quantile=2.8202, adjusted_beta=0.9990
+
+2025-09-22 07:39:39,687 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975
+
+2025-09-22 07:39:39,687 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:39,687 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:39,687 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:39,687 - INFO -   - Actual coverage: 78.8%
+
+2025-09-22 07:39:39,687 - INFO -   - Quantile threshold: 2.8202
+
+2025-09-22 07:39:39,687 - INFO -   - Test scores range: [-2.2268, 5.7660]
+
+2025-09-22 07:39:39,687 - INFO -   Coverage: 0.788 (expected: 0.900)
+
+2025-09-22 07:39:39,687 - INFO -   Worst-case coverage: 0.898
+
+2025-09-22 07:39:39,687 - INFO -   Avg interval width: 2.8202
+
+2025-09-22 07:39:39,687 - INFO - 
+
+============================================================
+
+2025-09-22 07:39:39,688 - INFO - EXPERIMENT SUMMARY
+
+2025-09-22 07:39:39,688 - INFO - ============================================================
+
+2025-09-22 07:39:39,688 - INFO - ε=0.00, ρ=0.00: Coverage=0.398, Width=1.1955, Worst-case=0.900
+
+2025-09-22 07:39:39,688 - INFO - ε=0.00, ρ=0.05: Coverage=0.492, Width=1.6126, Worst-case=0.900
+
+2025-09-22 07:39:39,688 - INFO - ε=0.00, ρ=0.10: Coverage=0.744, Width=2.6202, Worst-case=0.898
+
+2025-09-22 07:39:39,688 - INFO - ε=0.10, ρ=0.00: Coverage=0.418, Width=1.2955, Worst-case=0.900
+
+2025-09-22 07:39:39,688 - INFO - ε=0.10, ρ=0.05: Coverage=0.522, Width=1.7126, Worst-case=0.900
+
+2025-09-22 07:39:39,688 - INFO - ε=0.10, ρ=0.10: Coverage=0.766, Width=2.7202, Worst-case=0.898
+
+2025-09-22 07:39:39,688 - INFO - ε=0.20, ρ=0.00: Coverage=0.444, Width=1.3955, Worst-case=0.900
+
+2025-09-22 07:39:39,688 - INFO - ε=0.20, ρ=0.05: Coverage=0.544, Width=1.8126, Worst-case=0.900
+
+2025-09-22 07:39:39,688 - INFO - ε=0.20, ρ=0.10: Coverage=0.788, Width=2.8202, Worst-case=0.898
+
+2025-09-22 07:39:39,688 - INFO - 
+
+Best parameters: ε=0.20, ρ=0.10
+
+2025-09-22 07:39:39,688 - INFO - Achieved coverage: 0.788 (target: 0.900)
+
+2025-09-22 07:39:39,688 - INFO - Experiment completed successfully!
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "2025-09-22 07:39:39,680 - INFO - LP Robust Conformal Prediction for Time Series with Distribution Shifts\n2025-09-22 07:39:39,680 - INFO - Based on: Conformal Prediction under L\u00e9vy\u2013Prokhorov Distribution Shifts\n2025-09-22 07:39:39,680 - INFO - Starting LP Robust Conformal Prediction Experiment\n2025-09-22 07:39:39,680 - INFO - ============================================================\n2025-09-22 07:39:39,680 - INFO - Generating synthetic time series data with 1000 samples...\n2025-09-22 07:39:39,680 - INFO - Data generation complete:\n2025-09-22 07:39:39,680 - INFO -   - Calibration: mean=-0.0285, std=0.9975\n2025-09-22 07:39:39,680 - INFO -   - Test: mean=1.6194, std=1.3501\n2025-09-22 07:39:39,681 - INFO -   - Distribution shift strength: 0.8\n2025-09-22 07:39:39,681 - INFO - \nTesting \u03b5=0.0, \u03c1=0.0\n2025-09-22 07:39:39,681 - INFO - ------------------------------\n2025-09-22 07:39:39,681 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.0\n2025-09-22 07:39:39,681 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:39,682 - INFO - Fitted model: quantile=1.1955, adjusted_beta=0.9000\n2025-09-22 07:39:39,682 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975\n2025-09-22 07:39:39,682 - INFO - Generating prediction intervals...\n2025-09-22 07:39:39,682 - INFO - Prediction intervals generated:\n2025-09-22 07:39:39,682 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:39,682 - INFO -   - Actual coverage: 39.8%\n2025-09-22 07:39:39,682 - INFO -   - Quantile threshold: 1.1955\n2025-09-22 07:39:39,682 - INFO -   - Test scores range: [-2.2268, 5.7660]\n2025-09-22 07:39:39,682 - INFO -   Coverage: 0.398 (expected: 0.900)\n2025-09-22 07:39:39,682 - INFO -   Worst-case coverage: 0.900\n2025-09-22 07:39:39,682 - INFO -   Avg interval width: 1.1955\n2025-09-22 07:39:39,682 - INFO - \nTesting \u03b5=0.0, \u03c1=0.05\n2025-09-22 07:39:39,682 - INFO - ------------------------------\n2025-09-22 07:39:39,682 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.05\n2025-09-22 07:39:39,682 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:39,682 - INFO - Fitted model: quantile=1.6126, adjusted_beta=0.9500\n2025-09-22 07:39:39,682 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975\n2025-09-22 07:39:39,683 - INFO - Generating prediction intervals...\n2025-09-22 07:39:39,683 - INFO - Prediction intervals generated:\n2025-09-22 07:39:39,683 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:39,683 - INFO -   - Actual coverage: 49.2%\n2025-09-22 07:39:39,683 - INFO -   - Quantile threshold: 1.6126\n2025-09-22 07:39:39,683 - INFO -   - Test scores range: [-2.2268, 5.7660]\n2025-09-22 07:39:39,683 - INFO -   Coverage: 0.492 (expected: 0.900)\n2025-09-22 07:39:39,683 - INFO -   Worst-case coverage: 0.900\n2025-09-22 07:39:39,683 - INFO -   Avg interval width: 1.6126\n2025-09-22 07:39:39,683 - INFO - \nTesting \u03b5=0.0, \u03c1=0.1\n2025-09-22 07:39:39,683 - INFO - ------------------------------\n2025-09-22 07:39:39,683 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.1\n2025-09-22 07:39:39,683 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:39,683 - WARNING - Adjusted beta 1.0 >= 1.0, using 0.999\n2025-09-22 07:39:39,683 - INFO - Fitted model: quantile=2.6202, adjusted_beta=0.9990\n2025-09-22 07:39:39,683 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975\n2025-09-22 07:39:39,683 - INFO - Generating prediction intervals...\n2025-09-22 07:39:39,683 - INFO - Prediction intervals generated:\n2025-09-22 07:39:39,683 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:39,683 - INFO -   - Actual coverage: 74.4%\n2025-09-22 07:39:39,683 - INFO -   - Quantile threshold: 2.6202\n2025-09-22 07:39:39,683 - INFO -   - Test scores range: [-2.2268, 5.7660]\n2025-09-22 07:39:39,683 - INFO -   Coverage: 0.744 (expected: 0.900)\n2025-09-22 07:39:39,683 - INFO -   Worst-case coverage: 0.898\n2025-09-22 07:39:39,683 - INFO -   Avg interval width: 2.6202\n2025-09-22 07:39:39,684 - INFO - \nTesting \u03b5=0.1, \u03c1=0.0\n2025-09-22 07:39:39,684 - INFO - ------------------------------\n2025-09-22 07:39:39,684 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.0\n2025-09-22 07:39:39,684 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:39,684 - INFO - Fitted model: quantile=1.2955, adjusted_beta=0.9000\n2025-09-22 07:39:39,684 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975\n2025-09-22 07:39:39,684 - INFO - Generating prediction intervals...\n2025-09-22 07:39:39,684 - INFO - Prediction intervals generated:\n2025-09-22 07:39:39,684 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:39,684 - INFO -   - Actual coverage: 41.8%\n2025-09-22 07:39:39,684 - INFO -   - Quantile threshold: 1.2955\n2025-09-22 07:39:39,684 - INFO -   - Test scores range: [-2.2268, 5.7660]\n2025-09-22 07:39:39,684 - INFO -   Coverage: 0.418 (expected: 0.900)\n2025-09-22 07:39:39,684 - INFO -   Worst-case coverage: 0.900\n2025-09-22 07:39:39,684 - INFO -   Avg interval width: 1.2955\n2025-09-22 07:39:39,684 - INFO - \nTesting \u03b5=0.1, \u03c1=0.05\n2025-09-22 07:39:39,684 - INFO - ------------------------------\n2025-09-22 07:39:39,684 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.05\n2025-09-22 07:39:39,684 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:39,684 - INFO - Fitted model: quantile=1.7126, adjusted_beta=0.9500\n2025-09-22 07:39:39,684 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975\n2025-09-22 07:39:39,684 - INFO - Generating prediction intervals...\n2025-09-22 07:39:39,685 - INFO - Prediction intervals generated:\n2025-09-22 07:39:39,685 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:39,685 - INFO -   - Actual coverage: 52.2%\n2025-09-22 07:39:39,685 - INFO -   - Quantile threshold: 1.7126\n2025-09-22 07:39:39,685 - INFO -   - Test scores range: [-2.2268, 5.7660]\n2025-09-22 07:39:39,685 - INFO -   Coverage: 0.522 (expected: 0.900)\n2025-09-22 07:39:39,685 - INFO -   Worst-case coverage: 0.900\n2025-09-22 07:39:39,685 - INFO -   Avg interval width: 1.7126\n2025-09-22 07:39:39,685 - INFO - \nTesting \u03b5=0.1, \u03c1=0.1\n2025-09-22 07:39:39,685 - INFO - ------------------------------\n2025-09-22 07:39:39,685 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.1\n2025-09-22 07:39:39,685 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:39,685 - WARNING - Adjusted beta 1.0 >= 1.0, using 0.999\n2025-09-22 07:39:39,685 - INFO - Fitted model: quantile=2.7202, adjusted_beta=0.9990\n2025-09-22 07:39:39,685 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975\n2025-09-22 07:39:39,685 - INFO - Generating prediction intervals...\n2025-09-22 07:39:39,685 - INFO - Prediction intervals generated:\n2025-09-22 07:39:39,685 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:39,685 - INFO -   - Actual coverage: 76.6%\n2025-09-22 07:39:39,685 - INFO -   - Quantile threshold: 2.7202\n2025-09-22 07:39:39,685 - INFO -   - Test scores range: [-2.2268, 5.7660]\n2025-09-22 07:39:39,685 - INFO -   Coverage: 0.766 (expected: 0.900)\n2025-09-22 07:39:39,685 - INFO -   Worst-case coverage: 0.898\n2025-09-22 07:39:39,685 - INFO -   Avg interval width: 2.7202\n2025-09-22 07:39:39,685 - INFO - \nTesting \u03b5=0.2, \u03c1=0.0\n2025-09-22 07:39:39,685 - INFO - ------------------------------\n2025-09-22 07:39:39,686 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.0\n2025-09-22 07:39:39,686 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:39,686 - INFO - Fitted model: quantile=1.3955, adjusted_beta=0.9000\n2025-09-22 07:39:39,686 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975\n2025-09-22 07:39:39,686 - INFO - Generating prediction intervals...\n2025-09-22 07:39:39,686 - INFO - Prediction intervals generated:\n2025-09-22 07:39:39,686 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:39,686 - INFO -   - Actual coverage: 44.4%\n2025-09-22 07:39:39,686 - INFO -   - Quantile threshold: 1.3955\n2025-09-22 07:39:39,686 - INFO -   - Test scores range: [-2.2268, 5.7660]\n2025-09-22 07:39:39,686 - INFO -   Coverage: 0.444 (expected: 0.900)\n2025-09-22 07:39:39,686 - INFO -   Worst-case coverage: 0.900\n2025-09-22 07:39:39,686 - INFO -   Avg interval width: 1.3955\n2025-09-22 07:39:39,686 - INFO - \nTesting \u03b5=0.2, \u03c1=0.05\n2025-09-22 07:39:39,686 - INFO - ------------------------------\n2025-09-22 07:39:39,686 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.05\n2025-09-22 07:39:39,686 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:39,686 - INFO - Fitted model: quantile=1.8126, adjusted_beta=0.9500\n2025-09-22 07:39:39,686 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975\n2025-09-22 07:39:39,686 - INFO - Generating prediction intervals...\n2025-09-22 07:39:39,687 - INFO - Prediction intervals generated:\n2025-09-22 07:39:39,687 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:39,687 - INFO -   - Actual coverage: 54.4%\n2025-09-22 07:39:39,687 - INFO -   - Quantile threshold: 1.8126\n2025-09-22 07:39:39,687 - INFO -   - Test scores range: [-2.2268, 5.7660]\n2025-09-22 07:39:39,687 - INFO -   Coverage: 0.544 (expected: 0.900)\n2025-09-22 07:39:39,687 - INFO -   Worst-case coverage: 0.900\n2025-09-22 07:39:39,687 - INFO -   Avg interval width: 1.8126\n2025-09-22 07:39:39,687 - INFO - \nTesting \u03b5=0.2, \u03c1=0.1\n2025-09-22 07:39:39,687 - INFO - ------------------------------\n2025-09-22 07:39:39,687 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.1\n2025-09-22 07:39:39,687 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:39,687 - WARNING - Adjusted beta 1.0 >= 1.0, using 0.999\n2025-09-22 07:39:39,687 - INFO - Fitted model: quantile=2.8202, adjusted_beta=0.9990\n2025-09-22 07:39:39,687 - INFO - Calibration scores stats: mean=-0.0285, std=0.9975\n2025-09-22 07:39:39,687 - INFO - Generating prediction intervals...\n2025-09-22 07:39:39,687 - INFO - Prediction intervals generated:\n2025-09-22 07:39:39,687 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:39,687 - INFO -   - Actual coverage: 78.8%\n2025-09-22 07:39:39,687 - INFO -   - Quantile threshold: 2.8202\n2025-09-22 07:39:39,687 - INFO -   - Test scores range: [-2.2268, 5.7660]\n2025-09-22 07:39:39,687 - INFO -   Coverage: 0.788 (expected: 0.900)\n2025-09-22 07:39:39,687 - INFO -   Worst-case coverage: 0.898\n2025-09-22 07:39:39,687 - INFO -   Avg interval width: 2.8202\n2025-09-22 07:39:39,687 - INFO - \n============================================================\n2025-09-22 07:39:39,688 - INFO - EXPERIMENT SUMMARY\n2025-09-22 07:39:39,688 - INFO - ============================================================\n2025-09-22 07:39:39,688 - INFO - \u03b5=0.00, \u03c1=0.00: Coverage=0.398, Width=1.1955, Worst-case=0.900\n2025-09-22 07:39:39,688 - INFO - \u03b5=0.00, \u03c1=0.05: Coverage=0.492, Width=1.6126, Worst-case=0.900\n2025-09-22 07:39:39,688 - INFO - \u03b5=0.00, \u03c1=0.10: Coverage=0.744, Width=2.6202, Worst-case=0.898\n2025-09-22 07:39:39,688 - INFO - \u03b5=0.10, \u03c1=0.00: Coverage=0.418, Width=1.2955, Worst-case=0.900\n2025-09-22 07:39:39,688 - INFO - \u03b5=0.10, \u03c1=0.05: Coverage=0.522, Width=1.7126, Worst-case=0.900\n2025-09-22 07:39:39,688 - INFO - \u03b5=0.10, \u03c1=0.10: Coverage=0.766, Width=2.7202, Worst-case=0.898\n2025-09-22 07:39:39,688 - INFO - \u03b5=0.20, \u03c1=0.00: Coverage=0.444, Width=1.3955, Worst-case=0.900\n2025-09-22 07:39:39,688 - INFO - \u03b5=0.20, \u03c1=0.05: Coverage=0.544, Width=1.8126, Worst-case=0.900\n2025-09-22 07:39:39,688 - INFO - \u03b5=0.20, \u03c1=0.10: Coverage=0.788, Width=2.8202, Worst-case=0.898\n2025-09-22 07:39:39,688 - INFO - \nBest parameters: \u03b5=0.20, \u03c1=0.10\n2025-09-22 07:39:39,688 - INFO - Achieved coverage: 0.788 (target: 0.900)\n2025-09-22 07:39:39,688 - INFO - Experiment completed successfully!\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 5466.09 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: 7eaff9c1-132b-40b4-9209-764aaa5f4bdd Version: $LATEST
+
+RequestId: 7eaff9c1-132b-40b4-9209-764aaa5f4bdd Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: 7eaff9c1-132b-40b4-9209-764aaa5f4bdd
+
+REPORT RequestId: 7eaff9c1-132b-40b4-9209-764aaa5f4bdd	Duration: 5468.12 ms	Billed Duration: 5469 ms	Memory Size: 3008 MB	Max Memory Used: 88 MB	
+
+=== Experiment Errors ===
+
+2025-09-22 07:39:40,562 - INFO - LP Robust Conformal Prediction for Time Series with Distribution Shifts
+
+2025-09-22 07:39:40,562 - INFO - Based on: Conformal Prediction under Lévy–Prokhorov Distribution Shifts
+
+2025-09-22 07:39:40,562 - INFO - Starting LP Robust Conformal Prediction Experiment
+
+2025-09-22 07:39:40,562 - INFO - ============================================================
+
+2025-09-22 07:39:40,562 - INFO - Generating synthetic time series data with 1000 samples...
+
+2025-09-22 07:39:40,563 - INFO - Data generation complete:
+
+2025-09-22 07:39:40,563 - INFO -   - Calibration: mean=-0.0161, std=1.0275
+
+2025-09-22 07:39:40,563 - INFO -   - Test: mean=1.6005, std=1.3641
+
+2025-09-22 07:39:40,563 - INFO -   - Distribution shift strength: 0.8
+
+2025-09-22 07:39:40,563 - INFO - 
+
+Testing ε=0.0, ρ=0.0
+
+2025-09-22 07:39:40,563 - INFO - ------------------------------
+
+2025-09-22 07:39:40,563 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.0
+
+2025-09-22 07:39:40,563 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:40,563 - INFO - Fitted model: quantile=1.2612, adjusted_beta=0.9000
+
+2025-09-22 07:39:40,563 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275
+
+2025-09-22 07:39:40,563 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:40,563 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:40,563 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:40,563 - INFO -   - Actual coverage: 40.0%
+
+2025-09-22 07:39:40,563 - INFO -   - Quantile threshold: 1.2612
+
+2025-09-22 07:39:40,564 - INFO -   - Test scores range: [-2.3722, 6.2678]
+
+2025-09-22 07:39:40,564 - INFO -   Coverage: 0.400 (expected: 0.900)
+
+2025-09-22 07:39:40,564 - INFO -   Worst-case coverage: 0.900
+
+2025-09-22 07:39:40,564 - INFO -   Avg interval width: 1.2612
+
+2025-09-22 07:39:40,564 - INFO - 
+
+Testing ε=0.0, ρ=0.05
+
+2025-09-22 07:39:40,564 - INFO - ------------------------------
+
+2025-09-22 07:39:40,564 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.05
+
+2025-09-22 07:39:40,564 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:40,564 - INFO - Fitted model: quantile=1.6681, adjusted_beta=0.9500
+
+2025-09-22 07:39:40,564 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275
+
+2025-09-22 07:39:40,564 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:40,564 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:40,564 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:40,564 - INFO -   - Actual coverage: 51.8%
+
+2025-09-22 07:39:40,564 - INFO -   - Quantile threshold: 1.6681
+
+2025-09-22 07:39:40,564 - INFO -   - Test scores range: [-2.3722, 6.2678]
+
+2025-09-22 07:39:40,564 - INFO -   Coverage: 0.518 (expected: 0.900)
+
+2025-09-22 07:39:40,564 - INFO -   Worst-case coverage: 0.900
+
+2025-09-22 07:39:40,564 - INFO -   Avg interval width: 1.6681
+
+2025-09-22 07:39:40,564 - INFO - 
+
+Testing ε=0.0, ρ=0.1
+
+2025-09-22 07:39:40,564 - INFO - ------------------------------
+
+2025-09-22 07:39:40,565 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.1
+
+2025-09-22 07:39:40,565 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:40,565 - WARNING - Adjusted beta 1.0 >= 1.0, using 0.999
+
+2025-09-22 07:39:40,565 - INFO - Fitted model: quantile=2.9628, adjusted_beta=0.9990
+
+2025-09-22 07:39:40,565 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275
+
+2025-09-22 07:39:40,565 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:40,565 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:40,565 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:40,565 - INFO -   - Actual coverage: 82.8%
+
+2025-09-22 07:39:40,565 - INFO -   - Quantile threshold: 2.9628
+
+2025-09-22 07:39:40,565 - INFO -   - Test scores range: [-2.3722, 6.2678]
+
+2025-09-22 07:39:40,565 - INFO -   Coverage: 0.828 (expected: 0.900)
+
+2025-09-22 07:39:40,565 - INFO -   Worst-case coverage: 0.898
+
+2025-09-22 07:39:40,565 - INFO -   Avg interval width: 2.9628
+
+2025-09-22 07:39:40,565 - INFO - 
+
+Testing ε=0.1, ρ=0.0
+
+2025-09-22 07:39:40,565 - INFO - ------------------------------
+
+2025-09-22 07:39:40,565 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.0
+
+2025-09-22 07:39:40,565 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:40,565 - INFO - Fitted model: quantile=1.3612, adjusted_beta=0.9000
+
+2025-09-22 07:39:40,565 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275
+
+2025-09-22 07:39:40,566 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:40,566 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:40,566 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:40,566 - INFO -   - Actual coverage: 43.2%
+
+2025-09-22 07:39:40,566 - INFO -   - Quantile threshold: 1.3612
+
+2025-09-22 07:39:40,566 - INFO -   - Test scores range: [-2.3722, 6.2678]
+
+2025-09-22 07:39:40,566 - INFO -   Coverage: 0.432 (expected: 0.900)
+
+2025-09-22 07:39:40,566 - INFO -   Worst-case coverage: 0.900
+
+2025-09-22 07:39:40,566 - INFO -   Avg interval width: 1.3612
+
+2025-09-22 07:39:40,566 - INFO - 
+
+Testing ε=0.1, ρ=0.05
+
+2025-09-22 07:39:40,566 - INFO - ------------------------------
+
+2025-09-22 07:39:40,566 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-09-22 07:39:40,566 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:40,566 - INFO - Fitted model: quantile=1.7681, adjusted_beta=0.9500
+
+2025-09-22 07:39:40,566 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275
+
+2025-09-22 07:39:40,566 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:40,566 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:40,566 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:40,566 - INFO -   - Actual coverage: 55.6%
+
+2025-09-22 07:39:40,566 - INFO -   - Quantile threshold: 1.7681
+
+2025-09-22 07:39:40,566 - INFO -   - Test scores range: [-2.3722, 6.2678]
+
+2025-09-22 07:39:40,566 - INFO -   Coverage: 0.556 (expected: 0.900)
+
+2025-09-22 07:39:40,566 - INFO -   Worst-case coverage: 0.900
+
+2025-09-22 07:39:40,566 - INFO -   Avg interval width: 1.7681
+
+2025-09-22 07:39:40,566 - INFO - 
+
+Testing ε=0.1, ρ=0.1
+
+2025-09-22 07:39:40,566 - INFO - ------------------------------
+
+2025-09-22 07:39:40,566 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.1
+
+2025-09-22 07:39:40,567 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:40,567 - WARNING - Adjusted beta 1.0 >= 1.0, using 0.999
+
+2025-09-22 07:39:40,567 - INFO - Fitted model: quantile=3.0628, adjusted_beta=0.9990
+
+2025-09-22 07:39:40,567 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275
+
+2025-09-22 07:39:40,567 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:40,567 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:40,567 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:40,567 - INFO -   - Actual coverage: 85.2%
+
+2025-09-22 07:39:40,567 - INFO -   - Quantile threshold: 3.0628
+
+2025-09-22 07:39:40,567 - INFO -   - Test scores range: [-2.3722, 6.2678]
+
+2025-09-22 07:39:40,567 - INFO -   Coverage: 0.852 (expected: 0.900)
+
+2025-09-22 07:39:40,567 - INFO -   Worst-case coverage: 0.898
+
+2025-09-22 07:39:40,567 - INFO -   Avg interval width: 3.0628
+
+2025-09-22 07:39:40,567 - INFO - 
+
+Testing ε=0.2, ρ=0.0
+
+2025-09-22 07:39:40,567 - INFO - ------------------------------
+
+2025-09-22 07:39:40,567 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.0
+
+2025-09-22 07:39:40,567 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:40,567 - INFO - Fitted model: quantile=1.4612, adjusted_beta=0.9000
+
+2025-09-22 07:39:40,567 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275
+
+2025-09-22 07:39:40,567 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:40,567 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:40,568 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:40,568 - INFO -   - Actual coverage: 46.2%
+
+2025-09-22 07:39:40,568 - INFO -   - Quantile threshold: 1.4612
+
+2025-09-22 07:39:40,568 - INFO -   - Test scores range: [-2.3722, 6.2678]
+
+2025-09-22 07:39:40,568 - INFO -   Coverage: 0.462 (expected: 0.900)
+
+2025-09-22 07:39:40,568 - INFO -   Worst-case coverage: 0.900
+
+2025-09-22 07:39:40,568 - INFO -   Avg interval width: 1.4612
+
+2025-09-22 07:39:40,568 - INFO - 
+
+Testing ε=0.2, ρ=0.05
+
+2025-09-22 07:39:40,568 - INFO - ------------------------------
+
+2025-09-22 07:39:40,568 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.05
+
+2025-09-22 07:39:40,568 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:40,568 - INFO - Fitted model: quantile=1.8681, adjusted_beta=0.9500
+
+2025-09-22 07:39:40,568 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275
+
+2025-09-22 07:39:40,568 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:40,568 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:40,568 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:40,568 - INFO -   - Actual coverage: 58.2%
+
+2025-09-22 07:39:40,568 - INFO -   - Quantile threshold: 1.8681
+
+2025-09-22 07:39:40,568 - INFO -   - Test scores range: [-2.3722, 6.2678]
+
+2025-09-22 07:39:40,568 - INFO -   Coverage: 0.582 (expected: 0.900)
+
+2025-09-22 07:39:40,568 - INFO -   Worst-case coverage: 0.900
+
+2025-09-22 07:39:40,569 - INFO -   Avg interval width: 1.8681
+
+2025-09-22 07:39:40,569 - INFO - 
+
+Testing ε=0.2, ρ=0.1
+
+2025-09-22 07:39:40,569 - INFO - ------------------------------
+
+2025-09-22 07:39:40,569 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.1
+
+2025-09-22 07:39:40,569 - INFO - Fitting LP robust conformal prediction model...
+
+2025-09-22 07:39:40,569 - WARNING - Adjusted beta 1.0 >= 1.0, using 0.999
+
+2025-09-22 07:39:40,569 - INFO - Fitted model: quantile=3.1628, adjusted_beta=0.9990
+
+2025-09-22 07:39:40,569 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275
+
+2025-09-22 07:39:40,569 - INFO - Generating prediction intervals...
+
+2025-09-22 07:39:40,569 - INFO - Prediction intervals generated:
+
+2025-09-22 07:39:40,569 - INFO -   - Expected coverage: 90.0%
+
+2025-09-22 07:39:40,569 - INFO -   - Actual coverage: 88.0%
+
+2025-09-22 07:39:40,569 - INFO -   - Quantile threshold: 3.1628
+
+2025-09-22 07:39:40,569 - INFO -   - Test scores range: [-2.3722, 6.2678]
+
+2025-09-22 07:39:40,569 - INFO -   Coverage: 0.880 (expected: 0.900)
+
+2025-09-22 07:39:40,569 - INFO -   Worst-case coverage: 0.898
+
+2025-09-22 07:39:40,569 - INFO -   Avg interval width: 3.1628
+
+2025-09-22 07:39:40,569 - INFO - 
+
+============================================================
+
+2025-09-22 07:39:40,569 - INFO - EXPERIMENT SUMMARY
+
+2025-09-22 07:39:40,569 - INFO - ============================================================
+
+2025-09-22 07:39:40,569 - INFO - ε=0.00, ρ=0.00: Coverage=0.400, Width=1.2612, Worst-case=0.900
+
+2025-09-22 07:39:40,569 - INFO - ε=0.00, ρ=0.05: Coverage=0.518, Width=1.6681, Worst-case=0.900
+
+2025-09-22 07:39:40,569 - INFO - ε=0.00, ρ=0.10: Coverage=0.828, Width=2.9628, Worst-case=0.898
+
+2025-09-22 07:39:40,569 - INFO - ε=0.10, ρ=0.00: Coverage=0.432, Width=1.3612, Worst-case=0.900
+
+2025-09-22 07:39:40,569 - INFO - ε=0.10, ρ=0.05: Coverage=0.556, Width=1.7681, Worst-case=0.900
+
+2025-09-22 07:39:40,569 - INFO - ε=0.10, ρ=0.10: Coverage=0.852, Width=3.0628, Worst-case=0.898
+
+2025-09-22 07:39:40,569 - INFO - ε=0.20, ρ=0.00: Coverage=0.462, Width=1.4612, Worst-case=0.900
+
+2025-09-22 07:39:40,570 - INFO - ε=0.20, ρ=0.05: Coverage=0.582, Width=1.8681, Worst-case=0.900
+
+2025-09-22 07:39:40,570 - INFO - ε=0.20, ρ=0.10: Coverage=0.880, Width=3.1628, Worst-case=0.898
+
+2025-09-22 07:39:40,570 - INFO - 
+
+Best parameters: ε=0.20, ρ=0.10
+
+2025-09-22 07:39:40,570 - INFO - Achieved coverage: 0.880 (target: 0.900)
+
+2025-09-22 07:39:40,570 - INFO - Experiment completed successfully!
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "2025-09-22 07:39:40,562 - INFO - LP Robust Conformal Prediction for Time Series with Distribution Shifts\n2025-09-22 07:39:40,562 - INFO - Based on: Conformal Prediction under L\u00e9vy\u2013Prokhorov Distribution Shifts\n2025-09-22 07:39:40,562 - INFO - Starting LP Robust Conformal Prediction Experiment\n2025-09-22 07:39:40,562 - INFO - ============================================================\n2025-09-22 07:39:40,562 - INFO - Generating synthetic time series data with 1000 samples...\n2025-09-22 07:39:40,563 - INFO - Data generation complete:\n2025-09-22 07:39:40,563 - INFO -   - Calibration: mean=-0.0161, std=1.0275\n2025-09-22 07:39:40,563 - INFO -   - Test: mean=1.6005, std=1.3641\n2025-09-22 07:39:40,563 - INFO -   - Distribution shift strength: 0.8\n2025-09-22 07:39:40,563 - INFO - \nTesting \u03b5=0.0, \u03c1=0.0\n2025-09-22 07:39:40,563 - INFO - ------------------------------\n2025-09-22 07:39:40,563 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.0\n2025-09-22 07:39:40,563 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:40,563 - INFO - Fitted model: quantile=1.2612, adjusted_beta=0.9000\n2025-09-22 07:39:40,563 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275\n2025-09-22 07:39:40,563 - INFO - Generating prediction intervals...\n2025-09-22 07:39:40,563 - INFO - Prediction intervals generated:\n2025-09-22 07:39:40,563 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:40,563 - INFO -   - Actual coverage: 40.0%\n2025-09-22 07:39:40,563 - INFO -   - Quantile threshold: 1.2612\n2025-09-22 07:39:40,564 - INFO -   - Test scores range: [-2.3722, 6.2678]\n2025-09-22 07:39:40,564 - INFO -   Coverage: 0.400 (expected: 0.900)\n2025-09-22 07:39:40,564 - INFO -   Worst-case coverage: 0.900\n2025-09-22 07:39:40,564 - INFO -   Avg interval width: 1.2612\n2025-09-22 07:39:40,564 - INFO - \nTesting \u03b5=0.0, \u03c1=0.05\n2025-09-22 07:39:40,564 - INFO - ------------------------------\n2025-09-22 07:39:40,564 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.05\n2025-09-22 07:39:40,564 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:40,564 - INFO - Fitted model: quantile=1.6681, adjusted_beta=0.9500\n2025-09-22 07:39:40,564 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275\n2025-09-22 07:39:40,564 - INFO - Generating prediction intervals...\n2025-09-22 07:39:40,564 - INFO - Prediction intervals generated:\n2025-09-22 07:39:40,564 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:40,564 - INFO -   - Actual coverage: 51.8%\n2025-09-22 07:39:40,564 - INFO -   - Quantile threshold: 1.6681\n2025-09-22 07:39:40,564 - INFO -   - Test scores range: [-2.3722, 6.2678]\n2025-09-22 07:39:40,564 - INFO -   Coverage: 0.518 (expected: 0.900)\n2025-09-22 07:39:40,564 - INFO -   Worst-case coverage: 0.900\n2025-09-22 07:39:40,564 - INFO -   Avg interval width: 1.6681\n2025-09-22 07:39:40,564 - INFO - \nTesting \u03b5=0.0, \u03c1=0.1\n2025-09-22 07:39:40,564 - INFO - ------------------------------\n2025-09-22 07:39:40,565 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.1\n2025-09-22 07:39:40,565 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:40,565 - WARNING - Adjusted beta 1.0 >= 1.0, using 0.999\n2025-09-22 07:39:40,565 - INFO - Fitted model: quantile=2.9628, adjusted_beta=0.9990\n2025-09-22 07:39:40,565 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275\n2025-09-22 07:39:40,565 - INFO - Generating prediction intervals...\n2025-09-22 07:39:40,565 - INFO - Prediction intervals generated:\n2025-09-22 07:39:40,565 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:40,565 - INFO -   - Actual coverage: 82.8%\n2025-09-22 07:39:40,565 - INFO -   - Quantile threshold: 2.9628\n2025-09-22 07:39:40,565 - INFO -   - Test scores range: [-2.3722, 6.2678]\n2025-09-22 07:39:40,565 - INFO -   Coverage: 0.828 (expected: 0.900)\n2025-09-22 07:39:40,565 - INFO -   Worst-case coverage: 0.898\n2025-09-22 07:39:40,565 - INFO -   Avg interval width: 2.9628\n2025-09-22 07:39:40,565 - INFO - \nTesting \u03b5=0.1, \u03c1=0.0\n2025-09-22 07:39:40,565 - INFO - ------------------------------\n2025-09-22 07:39:40,565 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.0\n2025-09-22 07:39:40,565 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:40,565 - INFO - Fitted model: quantile=1.3612, adjusted_beta=0.9000\n2025-09-22 07:39:40,565 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275\n2025-09-22 07:39:40,566 - INFO - Generating prediction intervals...\n2025-09-22 07:39:40,566 - INFO - Prediction intervals generated:\n2025-09-22 07:39:40,566 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:40,566 - INFO -   - Actual coverage: 43.2%\n2025-09-22 07:39:40,566 - INFO -   - Quantile threshold: 1.3612\n2025-09-22 07:39:40,566 - INFO -   - Test scores range: [-2.3722, 6.2678]\n2025-09-22 07:39:40,566 - INFO -   Coverage: 0.432 (expected: 0.900)\n2025-09-22 07:39:40,566 - INFO -   Worst-case coverage: 0.900\n2025-09-22 07:39:40,566 - INFO -   Avg interval width: 1.3612\n2025-09-22 07:39:40,566 - INFO - \nTesting \u03b5=0.1, \u03c1=0.05\n2025-09-22 07:39:40,566 - INFO - ------------------------------\n2025-09-22 07:39:40,566 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.05\n2025-09-22 07:39:40,566 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:40,566 - INFO - Fitted model: quantile=1.7681, adjusted_beta=0.9500\n2025-09-22 07:39:40,566 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275\n2025-09-22 07:39:40,566 - INFO - Generating prediction intervals...\n2025-09-22 07:39:40,566 - INFO - Prediction intervals generated:\n2025-09-22 07:39:40,566 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:40,566 - INFO -   - Actual coverage: 55.6%\n2025-09-22 07:39:40,566 - INFO -   - Quantile threshold: 1.7681\n2025-09-22 07:39:40,566 - INFO -   - Test scores range: [-2.3722, 6.2678]\n2025-09-22 07:39:40,566 - INFO -   Coverage: 0.556 (expected: 0.900)\n2025-09-22 07:39:40,566 - INFO -   Worst-case coverage: 0.900\n2025-09-22 07:39:40,566 - INFO -   Avg interval width: 1.7681\n2025-09-22 07:39:40,566 - INFO - \nTesting \u03b5=0.1, \u03c1=0.1\n2025-09-22 07:39:40,566 - INFO - ------------------------------\n2025-09-22 07:39:40,566 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.1\n2025-09-22 07:39:40,567 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:40,567 - WARNING - Adjusted beta 1.0 >= 1.0, using 0.999\n2025-09-22 07:39:40,567 - INFO - Fitted model: quantile=3.0628, adjusted_beta=0.9990\n2025-09-22 07:39:40,567 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275\n2025-09-22 07:39:40,567 - INFO - Generating prediction intervals...\n2025-09-22 07:39:40,567 - INFO - Prediction intervals generated:\n2025-09-22 07:39:40,567 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:40,567 - INFO -   - Actual coverage: 85.2%\n2025-09-22 07:39:40,567 - INFO -   - Quantile threshold: 3.0628\n2025-09-22 07:39:40,567 - INFO -   - Test scores range: [-2.3722, 6.2678]\n2025-09-22 07:39:40,567 - INFO -   Coverage: 0.852 (expected: 0.900)\n2025-09-22 07:39:40,567 - INFO -   Worst-case coverage: 0.898\n2025-09-22 07:39:40,567 - INFO -   Avg interval width: 3.0628\n2025-09-22 07:39:40,567 - INFO - \nTesting \u03b5=0.2, \u03c1=0.0\n2025-09-22 07:39:40,567 - INFO - ------------------------------\n2025-09-22 07:39:40,567 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.0\n2025-09-22 07:39:40,567 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:40,567 - INFO - Fitted model: quantile=1.4612, adjusted_beta=0.9000\n2025-09-22 07:39:40,567 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275\n2025-09-22 07:39:40,567 - INFO - Generating prediction intervals...\n2025-09-22 07:39:40,567 - INFO - Prediction intervals generated:\n2025-09-22 07:39:40,568 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:40,568 - INFO -   - Actual coverage: 46.2%\n2025-09-22 07:39:40,568 - INFO -   - Quantile threshold: 1.4612\n2025-09-22 07:39:40,568 - INFO -   - Test scores range: [-2.3722, 6.2678]\n2025-09-22 07:39:40,568 - INFO -   Coverage: 0.462 (expected: 0.900)\n2025-09-22 07:39:40,568 - INFO -   Worst-case coverage: 0.900\n2025-09-22 07:39:40,568 - INFO -   Avg interval width: 1.4612\n2025-09-22 07:39:40,568 - INFO - \nTesting \u03b5=0.2, \u03c1=0.05\n2025-09-22 07:39:40,568 - INFO - ------------------------------\n2025-09-22 07:39:40,568 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.05\n2025-09-22 07:39:40,568 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:40,568 - INFO - Fitted model: quantile=1.8681, adjusted_beta=0.9500\n2025-09-22 07:39:40,568 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275\n2025-09-22 07:39:40,568 - INFO - Generating prediction intervals...\n2025-09-22 07:39:40,568 - INFO - Prediction intervals generated:\n2025-09-22 07:39:40,568 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:40,568 - INFO -   - Actual coverage: 58.2%\n2025-09-22 07:39:40,568 - INFO -   - Quantile threshold: 1.8681\n2025-09-22 07:39:40,568 - INFO -   - Test scores range: [-2.3722, 6.2678]\n2025-09-22 07:39:40,568 - INFO -   Coverage: 0.582 (expected: 0.900)\n2025-09-22 07:39:40,568 - INFO -   Worst-case coverage: 0.900\n2025-09-22 07:39:40,569 - INFO -   Avg interval width: 1.8681\n2025-09-22 07:39:40,569 - INFO - \nTesting \u03b5=0.2, \u03c1=0.1\n2025-09-22 07:39:40,569 - INFO - ------------------------------\n2025-09-22 07:39:40,569 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.1\n2025-09-22 07:39:40,569 - INFO - Fitting LP robust conformal prediction model...\n2025-09-22 07:39:40,569 - WARNING - Adjusted beta 1.0 >= 1.0, using 0.999\n2025-09-22 07:39:40,569 - INFO - Fitted model: quantile=3.1628, adjusted_beta=0.9990\n2025-09-22 07:39:40,569 - INFO - Calibration scores stats: mean=-0.0161, std=1.0275\n2025-09-22 07:39:40,569 - INFO - Generating prediction intervals...\n2025-09-22 07:39:40,569 - INFO - Prediction intervals generated:\n2025-09-22 07:39:40,569 - INFO -   - Expected coverage: 90.0%\n2025-09-22 07:39:40,569 - INFO -   - Actual coverage: 88.0%\n2025-09-22 07:39:40,569 - INFO -   - Quantile threshold: 3.1628\n2025-09-22 07:39:40,569 - INFO -   - Test scores range: [-2.3722, 6.2678]\n2025-09-22 07:39:40,569 - INFO -   Coverage: 0.880 (expected: 0.900)\n2025-09-22 07:39:40,569 - INFO -   Worst-case coverage: 0.898\n2025-09-22 07:39:40,569 - INFO -   Avg interval width: 3.1628\n2025-09-22 07:39:40,569 - INFO - \n============================================================\n2025-09-22 07:39:40,569 - INFO - EXPERIMENT SUMMARY\n2025-09-22 07:39:40,569 - INFO - ============================================================\n2025-09-22 07:39:40,569 - INFO - \u03b5=0.00, \u03c1=0.00: Coverage=0.400, Width=1.2612, Worst-case=0.900\n2025-09-22 07:39:40,569 - INFO - \u03b5=0.00, \u03c1=0.05: Coverage=0.518, Width=1.6681, Worst-case=0.900\n2025-09-22 07:39:40,569 - INFO - \u03b5=0.00, \u03c1=0.10: Coverage=0.828, Width=2.9628, Worst-case=0.898\n2025-09-22 07:39:40,569 - INFO - \u03b5=0.10, \u03c1=0.00: Coverage=0.432, Width=1.3612, Worst-case=0.900\n2025-09-22 07:39:40,569 - INFO - \u03b5=0.10, \u03c1=0.05: Coverage=0.556, Width=1.7681, Worst-case=0.900\n2025-09-22 07:39:40,569 - INFO - \u03b5=0.10, \u03c1=0.10: Coverage=0.852, Width=3.0628, Worst-case=0.898\n2025-09-22 07:39:40,569 - INFO - \u03b5=0.20, \u03c1=0.00: Coverage=0.462, Width=1.4612, Worst-case=0.900\n2025-09-22 07:39:40,570 - INFO - \u03b5=0.20, \u03c1=0.05: Coverage=0.582, Width=1.8681, Worst-case=0.900\n2025-09-22 07:39:40,570 - INFO - \u03b5=0.20, \u03c1=0.10: Coverage=0.880, Width=3.1628, Worst-case=0.898\n2025-09-22 07:39:40,570 - INFO - \nBest parameters: \u03b5=0.20, \u03c1=0.10\n2025-09-22 07:39:40,570 - INFO - Achieved coverage: 0.880 (target: 0.900)\n2025-09-22 07:39:40,570 - INFO - Experiment completed successfully!\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 850.70 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
